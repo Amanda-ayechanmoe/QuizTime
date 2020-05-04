@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapp"
+    tools:context=".FinishScreenActivity">
+
+    <ImageView
+        android:id="@+id/trophy"
+        android:layout_width="257dp"
+        android:layout_height="185dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/trophy_icon2"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/text_view_finish_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/amita_bold"
+        android:text="@string/score_0"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/trophy"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/OkButton"
+        android:layout_width="148dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/text_view_finish_score"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/amita_bold"
+        android:textSize="15sp"
+
+        android:text="@string/okay" />
+
+    <Button
+        android:id="@+id/tryAgainButton"
+        android:layout_width="148dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/text_view_finish_score"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:textSize="15sp"
+        android:fontFamily="@font/amita_bold"
+        android:drawableBottom="@drawable/ic_icons8_restart"
+        android:text="@string/try_again" />
+
+</RelativeLayout>

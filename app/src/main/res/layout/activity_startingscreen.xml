@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapp"
+    tools:context=".StartScreenActivity">
+
+    <Button
+        android:id="@+id/StartButton"
+        android:layout_width="247dp"
+        android:layout_height="67dp"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPink"
+        android:text="@string/get_started"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text_view_highscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/StartButton"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/amita_bold"
+        android:text="@string/highscore_0"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:fontFamily="casual"
+        android:text="@string/ci6222_quiz_time"
+        android:textColor="@android:color/black"
+        android:textSize="35sp" />
+
+    <ImageView
+        android:id="@+id/quizGirl"
+        android:layout_width="257dp"
+        android:layout_height="185dp"
+        android:layout_below="@+id/welcomeText"
+        android:layout_above="@+id/text_view_highscore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/question"
+        android:contentDescription="@string/todo" />
+    <Spinner
+        android:id="@+id/spinner_difficulty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_alignStart="@id/StartButton"
+        android:layout_below="@id/StartButton"
+        />
+
+
+</RelativeLayout>

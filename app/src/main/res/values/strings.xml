@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">CI6222Quiz</string>
+    <string name="welcome_to_ci6222_quiz">Welcome To CI6222 Quiz</string>
+    <string name="welcome">Welcome</string>
+    <string name="quiz_time">Quiz Time</string>
+    <string name="get_started">Get Started</string>
+    <string name="highscore_0">Highscore: 0</string>
+    <string name="ci6222_quiz_time">CI6222 Quiz Time</string>
+    <string name="score_0">Score: 0</string>
+    <string name="question_1_x">Question: 1/x</string>
+    <string name="_00_30">00:30</string>
+    <string name="here_will_be_question_text_nhere_will_be_question_texthere_will_be_question_text">Here will be question text Here will be question textHere will be question text</string>
+    <string name="option_1">option 1</string>
+    <string name="option_2">option 2</string>
+    <string name="option_3">option 3</string>
+    <string name="confirm">Confirm</string>
+    <string name="here_will_be_question_nhere_will_be_question_nhere_will_be_question">Here will be question Here will be question Here will be question</string>
+    <string name="todo1">TODO</string>
+    <string name="difficulty">Difficulty:</string>
+    <string name="todo">TODO</string>
+    <string name="button1">Button</string>
+    <string name="button">Button</string>
+    <string name="try_again1">Try Again</string>
+    <string name="ok">OK</string>
+    <string name="score_02">Score: 02</string>
+    <string name="okay">okay</string>
+    <string name="try_again">Try Again</string>
+</resources>
